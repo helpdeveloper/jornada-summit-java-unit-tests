@@ -1,5 +1,7 @@
 # A arte de escrever testes: esqueça seu Framework e coverage
 
+Escrever testes unitários é uma arte, muitos se apegam ao coverage e realizam seus testes totalmente acoplados a Framework, iremos mostrar uma abordagem focada na simplicidade e no negócio. Sendo a base para um entrega contínua de valor.
+
 <p align="center">
     <img src="./images/baner.jpeg" height="450">
 </p>
@@ -8,7 +10,7 @@
 
 - [main](https://github.com/helpdeveloper/jornada-summit-java-unit-tests/tree/main): Estrutura do projeto, sem testes.
 - [framework-coverage](https://github.com/helpdeveloper/jornada-summit-java-unit-tests/tree/framework-coverage): Exemplo de testes acoplados com framework e com 100% de coverage que não garante a qualidade do software.
-- [art-of-tests](https://github.com/helpdeveloper/jornada-summit-java-unit-tests/tree/art-of-tests) : Testes desacoplados do framework garantindo a qualidade do software.
+- [art-of-tests](https://github.com/helpdeveloper/jornada-summit-java-unit-tests/tree/art-of-tests) : Testes desacoplados do framework com uma abordagem focada na simplicidade e no negócio, garantindo a qualidade do software.
 
 # Links
 
