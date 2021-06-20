@@ -4,6 +4,12 @@
     <img src="./images/baner.jpeg" height="450">
 </p>
 
+# Código / Branches
+
+- [main](https://github.com/helpdeveloper/jornada-summit-java-unit-tests/tree/main): Estrutura do projeto, sem testes.
+- [framework-coverage](https://github.com/helpdeveloper/jornada-summit-java-unit-tests/tree/framework-coverage): Exemplo de testes acoplados com framework e com 100% de coverage que não garante a qualidade do software.
+- [art-of-tests](https://github.com/helpdeveloper/jornada-summit-java-unit-tests/tree/art-of-tests) : Testes desacoplados do framework garantindo a qualidade do software.
+
 # Links
 
 - [Apresentação em slides — Jornada Colaborativa Summit 2021](https://docs.google.com/presentation/d/1bZ6BFUdhomU14xmGRO2_3GHXMiRYcpvbcixr1GpR4J4/edit?usp=sharing)
