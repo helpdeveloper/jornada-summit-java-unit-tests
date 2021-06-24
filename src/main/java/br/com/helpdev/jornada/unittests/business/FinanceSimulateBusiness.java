@@ -46,7 +46,7 @@ public class FinanceSimulateBusiness {
         throw new IllegalArgumentException("The document is not valid");
     }
 
-    if (calculator.isAvailableToFinance(simulationData, valueToCalc)) {
+    if (!calculator.isAvailableToFinance(simulationData, valueToCalc)) {
       throw new IllegalArgumentException("You can't finance this value");
     }
 
