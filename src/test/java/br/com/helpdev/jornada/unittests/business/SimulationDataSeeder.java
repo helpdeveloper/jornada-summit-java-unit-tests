@@ -25,4 +25,11 @@ public class SimulationDataSeeder {
         10L);
   }
 
+  public static SimulationData getSimulationValueWithInvalidValue() {
+   return new SimulationData("11111111111",
+        10L,
+        10L,
+        1L);
+  }
+
 }

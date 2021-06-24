@@ -18,7 +18,7 @@ public class SerasaService {
     } catch (InterruptedException ignore) {
     }
 
-    if (new Random().nextInt(10) == 1) {
+    if (new Random().nextInt(50) == 1) {
       throw new RuntimeException("Error 500 ao chamar o Serasa");
     }
 
