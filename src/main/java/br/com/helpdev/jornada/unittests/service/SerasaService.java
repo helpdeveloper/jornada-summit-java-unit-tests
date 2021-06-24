@@ -9,20 +9,22 @@ import org.springframework.stereotype.Service;
 @Service
 public class SerasaService {
 
-  public List<SerasaDebits> getDebits(final String document) {
+  public static final String CPF_WITH_DEBIT = "12345678910";
 
+  public List<SerasaDebits> getDebits(final String document) {
     System.out.println("Calling external call to document " + document + " ...");
     try {
       Thread.sleep(1_000);
+    } catch (InterruptedException ignore) {
+    }
 
-      if (new Random().nextInt(2) == 1) {
+    if (new Random().nextInt(3) == 1) {
+      throw new RuntimeException("Error 500");
+    }
+
+    if (document.equalsIgnoreCase(CPF_WITH_DEBIT)) {
         return Collections.singletonList(new SerasaDebits(1231L));
       }
-
-    } catch (InterruptedException ignore) {
-    } finally {
-      System.out.println("...done");
-    }
 
     return Collections.emptyList();
   }
