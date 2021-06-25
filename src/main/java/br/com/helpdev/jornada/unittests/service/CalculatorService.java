@@ -14,7 +14,7 @@ public class CalculatorService {
   }
 
   public boolean isAvailableToFinance(final SimulationData simulationData, final Long calcValue) {
-    return simulationData.getFinancialValue() / simulationData.getIncome() > calcValue;
+    return simulationData.getFinancialValue() / simulationData.getIncome() < calcValue;
   }
 
 }

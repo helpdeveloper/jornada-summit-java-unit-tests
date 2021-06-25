@@ -81,10 +81,10 @@
                 </executions>
                 <configuration>
                     <targetClasses>
-                        <param>br.com.helpdev.workshopunittest*</param>
+                        <param>br.com.helpdev.jornada.unittests*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>br.com.helpdev.workshopunittest*</param>
+                        <param>br.com.helpdev.jornada.unittests*</param>
                     </targetTests>
                 </configuration>
             </plugin>
