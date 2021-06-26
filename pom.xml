@@ -58,7 +58,13 @@
                         </goals>
                     </execution>
                 </executions>
-
+                <configuration>
+                    <excludes>
+                        <exclude>br/com/helpdev/jornada/unittests/controller/**/*</exclude>
+                        <exclude>**/*SerasaService.*</exclude>
+                        <exclude>**/*Application.*</exclude>
+                    </excludes>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.pitest</groupId>
@@ -86,6 +92,11 @@
                     <targetTests>
                         <param>br.com.helpdev.jornada.unittests*</param>
                     </targetTests>
+                    <excludedClasses>
+                        <param>br.com.helpdev.jornada.unittests.controller.*</param>
+                        <param>**/SerasaService.java</param>
+                        <param>**/*Application.*</param>
+                    </excludedClasses>
                 </configuration>
             </plugin>
 

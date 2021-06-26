@@ -1,9 +1,9 @@
 package br.com.helpdev.jornada.unittests.controller;
 
 import br.com.helpdev.jornada.unittests.business.FinanceSimulateBusiness;
-import br.com.helpdev.jornada.unittests.dto.FinanceSimulateRequestDTO;
-import br.com.helpdev.jornada.unittests.dto.FinanceSimulateResponseDTO;
-import br.com.helpdev.jornada.unittests.mapper.FinanceSimulateMapper;
+import br.com.helpdev.jornada.unittests.controller.dto.FinanceSimulateRequestDTO;
+import br.com.helpdev.jornada.unittests.controller.dto.FinanceSimulateResponseDTO;
+import br.com.helpdev.jornada.unittests.controller.mapper.FinanceSimulateMapper;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

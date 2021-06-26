@@ -1,9 +1,9 @@
-package br.com.helpdev.jornada.unittests.mapper;
+package br.com.helpdev.jornada.unittests.controller.mapper;
 
 import br.com.helpdev.jornada.unittests.business.model.SimulationData;
 import br.com.helpdev.jornada.unittests.business.model.SimulationResult;
-import br.com.helpdev.jornada.unittests.dto.FinanceSimulateRequestDTO;
-import br.com.helpdev.jornada.unittests.dto.FinanceSimulateResponseDTO;
+import br.com.helpdev.jornada.unittests.controller.dto.FinanceSimulateRequestDTO;
+import br.com.helpdev.jornada.unittests.controller.dto.FinanceSimulateResponseDTO;
 
 
 public class FinanceSimulateMapper {

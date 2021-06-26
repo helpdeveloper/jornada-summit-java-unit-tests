@@ -1,4 +1,4 @@
-package br.com.helpdev.jornada.unittests.dto;
+package br.com.helpdev.jornada.unittests.controller.dto;
 
 public class FinanceSimulateResponseDTO {
 
