@@ -54,7 +54,7 @@ class FinanceSimulateBusinessTest {
     verify(serasaService).getDebits(document);
     verify(calculator).isAvailableToFinance(simulationData, 100L);
     verifyNoMoreInteractions(serasaService);
-    verifyNoInteractions(calculator);
+    verifyNoMoreInteractions(calculator);
   }
 
   @Test
